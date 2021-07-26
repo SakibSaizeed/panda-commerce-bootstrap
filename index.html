@@ -6,27 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Panda </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <title>Canvas</title>
+
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"> <img src="/images/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="#"> <img src="/images/canvas logo dark.jpg" alt="logo" height="80" rounded-3"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navleft">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#show">Show</a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link" href="#Member">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#subscribe">Subscribe</a>
@@ -36,24 +42,25 @@
 
             </div>
         </div>
+
     </nav>
     <!-- slider section -->
     <section class="container" id="home">
 
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item  active ">
-                    <div class="row d-flex align-items-center p-5 bg-info bg-gradiant">
+                <div class="carousel-item ">
+                    <div class="row d-flex align-items-center p-5 bg-dark bg-gradient">
                         <div class="col-lg-7">
-                            <h1>Cool Dj Headphone</h1>
+                            <h1>Get ready for Rock</h1>
                             <p>
-                                Best headphone with excellent bass boost.
+                                turn up the volume!
 
                             </p>
 
-                            <h1> 500 usd </h1>
+                            <h1> New Album </h1>
 
-                            <button type="button" class="btn btn-danger"> BUY NOW</button>
+                            <button type="button" class="btn btn-danger"> Buy Now</button>
 
 
 
@@ -67,48 +74,35 @@
 
                 </div>
                 <div class="carousel-item">
-                    <div class="row p-5 bg-info bg-gradiant d-flex align-items-center">
+                    <div class="row p-5 bg-dark bg-gradient d-flex align-items-center">
                         <div class="col-lg-7">
-                            <h1>Sony Smart TV ULtra HD</h1>
+                            <h1>Jamming </h1>
                             <p>
-                                Best headphone with excellent bass boost.
+                                We are creating soul food for you! stay hungry!!
 
                             </p>
-
-                            <h1> 500 usd </h1>
-
-                            <button type="button" class="btn btn-danger"> BUY NOW</button>
-
 
 
                         </div>
 
 
                         <div class="col-lg-5">
-                            <img src="/images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            <img src="/images/canvas dada.jpg" class="d-block w-100 rounded-pill" alt="...">
+
+
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row p-5 bg-info bg-gradiant d-flex align-items-center ">
+                <div class="carousel-item active">
+                    <div class="row p-5 bg-dark bg-gradient d-flex align-items-center ">
                         <div class="col-lg-7">
-                            <h1>X-box for you</h1>
-                            <p>
-                                Best game console with excellent bass boost.
-
-                            </p>
-
-                            <h1> 500 usd </h1>
-
-                            <button type="button" class="btn btn-danger"> BUY NOW</button>
-
-
+                            <h1> <span class="orange-color">Canvas</span> the band</h1>
 
                         </div>
 
 
                         <div class="col-lg-5">
-                            <img src="/images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            <img src="/images/canvas-logo.jpg" class=" d-block w-100 rounded-circle" alt="...">
                         </div>
                     </div>
                 </div>
@@ -123,8 +117,6 @@
             </button>
         </div>
 
-
-
     </section>
 
 
@@ -133,29 +125,29 @@
 <body>
     <main>
 
-        <section class="container my-5">
+        <section class="container my-5" id="show">
 
             <div class="row g-4">
                 <div class="col-lg-4">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
-                        <h1 class="text-white">Watch</h1>
-                        <img src="images/categories/watch.png" alt="">
+                    <div class="p-3 border bg-dark d-flex align-items-center justify-content-between rounded-3">
+                        <h3 class="text-white">Chittagong Concert</h3>
+                        <img src="images/canvas cheragi.jpg " alt="" height="100">
                     </div>
                 </div>
 
 
                 <div class="col-lg-4 ">
-                    <div class="p-3  bg-primary d-flex align-items-center justify-content-between rounded-3">
-                        <h1 class="text-white">Bag</h1>
-                        <img src="images/categories/bag.png" alt="">
+                    <div class="p-3  bg-dark d-flex align-items-center justify-content-between rounded-3">
+                        <h3 class="text-white">unplugged show</h3>
+                        <img src="images/dada alone.jpg" alt="" height="100">
                     </div>
                 </div>
 
 
                 <div class="col-lg-4 ">
-                    <div class="p-3 border bg-success d-flex align-items-center justify-content-between rounded-3">
-                        <h1 class="text-white">Shoes</h1>
-                        <img src="images/categories/shoes.png" alt="">
+                    <div class="p-3 border bg-dark d-flex align-items-center justify-content-between rounded-3">
+                        <h3 class="text-white">from dhopa vai's room</h3>
+                        <img src="images/akashme.jpg" alt="" height="100">
                     </div>
                 </div>
 
@@ -167,23 +159,23 @@
         </section>
         <!-- card  item list shoe -->
 
-        <section class="container" id="shoes">
-            <h2> Shoes</h2>
+        <section class="container" id="Member">
+            <h2> Band-Mate </h2>
 
-            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
+            <div class="row row-cols-1 row-cols-md-5 row-cols-lg-5 g-4">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-lg">
-                        <img src="/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <img src="/images/rokib.jpg" class="card-img-top rounded-pill" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Reebok 360</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Sadman</h5>
+                            <p class="card-text"> he is the main chaddiman now lives in usa </p>
                         </div>
 
 
-                        <h3>$300</h3>
+
                         <div class="m-3">
 
-                            <button type="button" class="btn btn-danger"> BUY NOW </button>
+                            <button type="button" class="btn btn-danger"> Know More </button>
 
                         </div>
 
@@ -195,13 +187,13 @@
 
                 <div class="col">
                     <div class="card h-100 border-0 shadow-lg">
-                        <img src="/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <img src="/images/akash.jpg" class="card-img-top rounded-pill" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Nike spike</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <h5 class="card-title"> Akash </h5>
+                            <p class="card-text"> Akash is the crazy drummer of this band. He is pure agrabadi</p>
                         </div>
                         <div class="m-3">
-                            <button type="button" class="btn btn-success"> BUY NOW</button>
+                            <button type="button" class="btn btn-danger"> know more</button>
 
 
                         </div>
@@ -209,18 +201,50 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow-lg border-0">
-                        <img src="/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <img src="/images/dada alone.jpg" class="card-img-top rounded-pill" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Nike</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <h5 class="card-title">Shuvo</h5>
+                            <p class="card-text">Dada is dada.ex chulel guitarist from Ctg. </p>
                         </div>
                         <div class="m-3">
-                            <button type="button" class="btn btn-warning"> BUY NOW</button>
+                            <button type="button" class="btn btn-danger"> know more</button>
 
                         </div>
                     </div>
                 </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="/images/rokib.jpg" class="card-img-top rounded-pill " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Rokib </h5>
+                            <p class="card-text"> rokkkiiiiibbbbb bunooo rokkkiiiiibbbbb. great musician from dhaka</p>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-danger"> know more</button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="/images/rokib.jpg" class="card-img-top rounded-pill" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Sakib</h5>
+                            <p class="card-text">chakkibbb, udashi lyric man from Ctg. </p>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-danger"> know more</button>
+
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+
 
         </section>
 
@@ -228,80 +252,53 @@
 
         <!-- card item bag pack area  -->
 
-        <section class="container mt-5" id="backpack">
-            <h2> Back Pack</h2>
+        <section class="container mt-5" id="subscribe">
+            <h2> Reloading</h2>
 
-            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 g-4">
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg">
-                        <img src="/images/bags/bag-1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Red Bag </h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-
-
-                        <h3>$300</h3>
-                        <div class="m-3">
-
-                            <button type="button" class="btn btn-danger"> BUY NOW </button>
-
-                        </div>
+                    <div class="card h-100  shadow-lg">
+                        <img src="/images/canvas logo dark.jpg" class="card-img-top rounded-3" alt="...">
 
                     </div>
 
 
                 </div>
 
+        </section>
+        <br>
+        <br>
 
-                <div class="col">
-                    <div class="card h-100 border-0 shadow-lg">
-                        <img src="/images/bags/bag-2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Blue bag</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="m-3">
-                            <button type="button" class="btn btn-success"> BUY NOW</button>
+        <section class="container">
 
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 shadow-lg border-0">
-                        <img src="/images/bags/bag-3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Black</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="m-3">
-                            <button type="button" class="btn btn-warning"> BUY NOW</button>
-
-                        </div>
-                    </div>
-                </div>
+            <h3>Stay Connected with us</h3>
+            <div class="social_icons">
+                <a target="_blank" href="https://www.facebook.com/"><span><i class="fab fa-linkedin"></i></span></a>
+                <a target="_blank" href="https://www.facebook.com/"><span><i
+                                    class="fab fa-facebook-square"></i></span></a>
+                <a target="_blank" href="https://www.facebook.com/"><span><i
+                                    class="fab fa-instagram-square"></i></span></a>
+                <a target="_blank" href="https://www.facebook.com/"><span><i
+                                    class="fab fa-twitter-square"></i></span></a>
             </div>
 
         </section>
-
-        <!-- Subscriber section -->
-        <section class="container d-flex justify-content-center my-3 bg-info rounded-3 align-items-center" id="subscribe">
-            <div>
-                <h1>Stay in touch with us</h1>
-                <p>get updates on discount offer </p>
-                <input type="email" placeholder="your mail ">
-                <br>
-                <button class="btn btn-warning">Submit</button>
-            </div>
-        </section>
-
     </main>
-    <!-- footer -->
-    <footer class="mt-5 text-center">
-        <p><small> &copy; SakibSaizeed &copy;|| panda commerce @2021 </small> </p>
-    </footer>
 
+
+
+
+
+    <footer>
+        <div>
+            <h1><span class=orange-color> Canvas </span> <span class="white-color-footer"> The Band</span></h1>
+        </div>
+
+        <div class="text-center text-white">
+            <p><small> &copy; SakibSaizeed || Canvas@2021 </small> </p>
+        </div>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
